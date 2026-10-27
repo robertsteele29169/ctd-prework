@@ -1,3 +1,7 @@
+# This program determines whether an item should be recycled or placed in the trash.
+# It asks the user to identify the material and, if eligible, enter its length and weight.
+# The program uses these measurements to determine the appropriate disposal bin.
+
 material = input("What material is it? ")
 
 if material == "plastic" or material == "metal":
