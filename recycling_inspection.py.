@@ -25,3 +25,25 @@ else:
 
 
 print("Please deposit your item in the " + waste_type + " bin.")
+
+# Example Run 1 - Item accepted for recycling
+# What material is it? plastic
+# What is its length in cm? 8
+# How much does the material weigh in lbs? 4
+# Material entered: plastic
+# Length entered: 8.0
+# Weight of material: 4.0
+# Please deposit your item in the recycling bin.
+
+# Example Run 2 - Item rejected for recycling
+# What material is it? metal
+# What is its length in cm? 6
+# How much does the material weigh in lbs? 4
+# Material entered: metal
+# Length entered: 6.0
+# Weight of material: 4.0
+# Please deposit your item in the trash bin.
+
+# Example Run 3 - Material not accepted
+# What material is it? wood
+# Please deposit your item in the trash bin.
