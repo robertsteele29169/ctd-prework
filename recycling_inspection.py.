@@ -1,0 +1,23 @@
+material = input("What material is it? ")
+
+if material == "plastic" or material == "metal":
+    waste_type = "recycling"
+
+    length = float(input("What is its length in cm? "))
+    weight = float(input("How much does the material weigh in lbs? "))
+
+    print("Material entered:", material)
+    print("Length entered:", length)
+    print("Weight of material:", weight)
+
+    if length < 7.5:
+        waste_type = "trash"
+
+    if weight < 3.0:
+        waste_type = "trash"
+
+else:
+    waste_type = "trash"
+
+
+print("Please deposit your item in the " + waste_type + " bin.")
